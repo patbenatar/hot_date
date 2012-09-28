@@ -50,3 +50,8 @@ date.minus((4).months())
 > duration.milliseconds()
 31536000000
 ```
+
+## Warning!
+
+This library extends the Number and Date prototypes so if you're the type to run
+and hide at the first mention of extending native objects, this is not for you!
